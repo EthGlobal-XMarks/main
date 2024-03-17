@@ -1,0 +1,158 @@
+.exploreTab {
+    background-color: rgb(246, 246, 246);
+}
+
+.exploreTitle {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+}
+
+.backArrow {
+    position: absolute;
+    left: 20px;
+    top: 23px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.loadingContainer {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pastGames, .currentGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    overflow-y: scroll;
+    max-height: calc(100vh - 160px);
+}
+
+.pastGameTitle {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.pastGameDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+.pastGame {
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80%;
+    padding: 5px;
+}
+
+.pastImage {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.currentImage {
+    margin-top: 20px;   
+    border-radius: 5px;
+}
+
+.currentGameContainer {
+    width: 80%;
+    padding: 5px;
+}
+
+.currentGuess {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+}
+
+.currentGameDetails {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.earthContainer {
+    width: 70%;
+    position: relative;
+}
+
+.gameInfoContainer {
+    width: 30%;
+}
+
+.startGame {
+    background-color: white;
+    padding: 14px 70px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 500;
+}
+
+.yourGuess {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submitContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.submitBtn {
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.userActionsContainer {
+    left: 26vw;
+    top: 100px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.userIcon {
+    width: 30px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
